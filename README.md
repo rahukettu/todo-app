@@ -1,4 +1,4 @@
-# todo-app
+# Todo App
 
 ## Overview
 
@@ -8,7 +8,7 @@ This is a simple Todo List application built with React Native and Expo. The app
 
 - **Add Tasks**: Users can add new tasks with a description and priority level.
 - **Task Priority**: Tasks can be assigned different priority levels and are displayed accordingly.
-- **Mark Tasks**: Users can mark tasks as done or undone by pressing on the task.
+- **Mark Tasks**: Users can mark tasks as done or undone by tapping on the task.
 - **Delete Tasks**: Users can delete tasks from the list.
 - **Persistent Storage**: Task data is stored locally using AsyncStorage.
 
@@ -19,11 +19,11 @@ This is a simple Todo List application built with React Native and Expo. The app
 
 ## Installation
 
-1. **Clone the Repository**
+### Clone the Repository
 
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+```bash
+git clone <repository-url>
+cd <repository-folder>
 
 Install Dependencies
 
@@ -53,10 +53,9 @@ Run the development server using Expo CLI.
 
 bash
 
-    expo start
+expo start
 
-    This will start the Expo development server and open the Expo DevTools in your default web browser. You can use the Expo Go app on your mobile device to scan the QR code and run the app.
-
+This will start the Expo development server and open the Expo DevTools in your default web browser. You can use the Expo Go app on your mobile device to scan the QR code and run the app.
 Usage
 
     Adding Tasks: Enter a task description and select a priority level from the dropdown. Press "Add Task" to add it to the list.
@@ -68,11 +67,13 @@ Code Structure
     App.js: Main entry point of the application. Manages the state of tasks and handles CRUD operations.
     components/AddTask.js: Component for adding new tasks with priority selection.
     components/TaskList.js: Component for displaying the list of tasks with options to toggle and delete.
+    navigation/Navigation.js: Handles the navigation setup with React Navigation.
+    screens/HomeScreen.js: Displays the list of tasks and provides navigation to the Add Task screen.
+    screens/AddTaskScreen.js: Screen for adding a new task.
 
 License
 
-This project is licensed under the GNU General Public License (GPL) v3.0. 
-
+This project is licensed under the GNU General Public License (GPL) v3.0.
 Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please submit a pull request or open an issue.
