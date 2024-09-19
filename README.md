@@ -24,12 +24,12 @@ This is a simple Todo List application built with React Native and Expo. The app
 ```bash
 git clone <repository-url>
 cd <repository-folder>
-
+```
 Install Dependencies
 
 Use npm or yarn to install the required dependencies.
 
-bash
+```bash
 
 npm install
 
@@ -38,45 +38,49 @@ or
 bash
 
 yarn install
-
+```
 Install Expo CLI
 
 If you haven't installed Expo CLI yet, do so globally.
 
-bash
+```bash
 
 npm install -g expo-cli
 
+```
 Start the Development Server
 
 Run the development server using Expo CLI.
 
-bash
+```bash
 
 expo start
+```
 
 This will start the Expo development server and open the Expo DevTools in your default web browser. You can use the Expo Go app on your mobile device to scan the QR code and run the app.
-Usage
+## Usage
 
-    Adding Tasks: Enter a task description and select a priority level from the dropdown. Press "Add Task" to add it to the list.
-    Marking Tasks: Tap on a task to toggle its done/undone status.
-    Deleting Tasks: Press the "Delete" button next to a task to remove it from the list.
+Adding Tasks: Enter a task description and select a priority level from the dropdown. Press "Add Task" to add it to the list.
+Marking Tasks: Tap on a task to toggle its done/undone status.
+Deleting Tasks: Press the "Delete" button next to a task to remove it from the list.
 
-Code Structure
+## Code Structure
 
-    App.js: Main entry point of the application. Manages the state of tasks and handles CRUD operations.
-    components/AddTask.js: Component for adding new tasks with priority selection.
-    components/TaskList.js: Component for displaying the list of tasks with options to toggle and delete.
-    navigation/Navigation.js: Handles the navigation setup with React Navigation.
-    screens/HomeScreen.js: Displays the list of tasks and provides navigation to the Add Task screen.
-    screens/AddTaskScreen.js: Screen for adding a new task.
+App.js: Main entry point of the application. Manages the state of tasks and handles CRUD operations.
+components/AddTask.js: Component for adding new tasks with priority selection.
+components/TaskList.js: Component for displaying the list of tasks with options to toggle and delete.
+navigation/Navigation.js: Handles the navigation setup with React Navigation.
+screens/HomeScreen.js: Displays the list of tasks and provides navigation to the Add Task screen.
+screens/AddTaskScreen.js: Screen for adding a new task.
 
-License
+## License
 
 This project is licensed under the GNU General Public License (GPL) v3.0.
-Contributing
+
+## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please submit a pull request or open an issue.
-Contact
+
+## Contact
 
 For any questions or feedback, please reach out to rahukettu@gmx.com
